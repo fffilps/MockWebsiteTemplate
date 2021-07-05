@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 750px;
+    border-radius: 3px;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+   background-color: olivedrab;
+   border-bottom: solid black 1px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-family: 'RaleWay', sans-serif;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px;
+    padding: 0;
+    position: sticky;
+    justify-content: flex-end;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px;
+    margin: 5px;
+    display: inline;
+}
+
+h1 {
+    display: flex;
+}
+
+#part2 {
+    display: flex;
+    background-image: url(car1.jpg);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    color: yellow;
+}
+
+#part3 {
+    display: flex;
+    background-color: teal;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: antiquewhite;
+}
+
+span {
+    color: blue;
+}
+
+a {
+    text-decoration: none;
+    border: solid black 1px;
+    padding: 10px;
+    color: black;
+}
+
+a:hover {
+    background-color: rgba(36, 35, 35, 0.5);
+    cursor: pointer;
+}
