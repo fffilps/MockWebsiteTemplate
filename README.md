@@ -1,1 +1,1 @@
-# WebsiteGallery
+# Main Mock Website Template 
